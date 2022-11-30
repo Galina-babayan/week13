@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+.row {
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 0px 15px;
+  background-color: rgb(250, 240, 220);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(105, 74, 59);
+  padding: 70px 20px;
+}
+.row__name {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+}
+.row__title {
+  font-size: 25px;
+  line-height: 105%;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.row__body {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+.row__button {
+  border-radius: 37px;
+  margin: 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.2px;
+  padding: 5px 15px;
+  min-height: 50px;
+  width: 150px;
+  text-decoration: none;
+  letter-spacing: 0.2px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 105%;
+  text-transform: uppercase;
+  text-align: center;
+  border: 0.1px solid rgb(181, 173, 169);
+}
+.row__button:hover {
+  box-shadow: 5px 5px 5px #425b69;
+  transition: all 0.3s ease 0s;
+}
+.row__button-a {
+  background-color: rgb(229, 220, 210);
+}
+.row__button-b {
+  background-color: rgb(255, 242, 200);
+}
+.row__button-c {
+  background-color: rgba(45, 252, 73, 0.1921568627);
+}
+.row__button-d {
+  background-color: rgb(243, 216, 193);
+}
+.row__button-e {
+  background-color: rgb(217, 228, 234);
+}
+.row__button-a:hover {
+  background: rgb(133, 65, 17);
+  color: rgb(229, 220, 210);
+}
+.row__button-b:hover {
+  background: #f08700;
+  color: rgb(229, 220, 210);
+}
+.row__button-c:hover {
+  background: rgba(41, 126, 53, 0.8784313725);
+  color: rgb(229, 220, 210);
+}
+.row__button-d:hover {
+  background: rgb(200, 122, 48);
+  color: rgb(229, 220, 210);
+}
+.row__button-e:hover {
+  background: rgb(40, 120, 173);
+  color: rgb(229, 220, 210);
+}/*# sourceMappingURL=style.css.map */
